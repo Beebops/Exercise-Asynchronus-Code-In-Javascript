@@ -27,18 +27,40 @@
       </li>
     </ol>
     <h2>Number Facts Responses</h2>
-    <h3>Random Fact about 42</h3>
+    <h4>Random Fact about 42</h4>
     <p id="random-fact"></p>
-    <h3>Random Facts About the Numbers 7, 11, and 13</h3>
+    <h4>Random Facts About the Numbers 7, 11, and 13</h4>
     <ul id="random-facts-ul">
       <li id="seven"></li>
       <li id="eleven"></li>
       <li id="thirteen"></li>
     </ul>
-    <h3>4 Facts about the Number 9</h3>
+    <h4>4 Facts about the Number 9</h4>
     <ul id="number9-facts"></ul>
+    <h2>Deck of Cards</h2>
+    <ol>
+      <li>
+        Make a request to the Deck of Cards API to request a single card from a
+        newly shuffled deck. Once you have the card, console.log the value and
+        the suit (e.g. “5 of spades”, “queen of diamonds”).
+      </li>
+      <li>
+        Make a request to the deck of cards API to request a single card from a
+        newly shuffled deck. Once you have the card, make a request to the same
+        API to get one more card from the same deck. Once you have both cards,
+        console.log the values and suits of both cards.
+      </li>
+      <li>
+        Build an HTML page that lets you draw cards from a deck. When the page
+        loads, go to the Deck of Cards API to create a new deck, and show a
+        button on the page that will let you draw a card. Every time you click
+        the button, display a new card, until there are no cards left in the
+        deck.
+      </li>
+    </ol>
 
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-    <script src="app.js"></script>
+    <script src="numbers.js"></script>
+    <script src="cards.js"></script>
   </body>
 </html>
