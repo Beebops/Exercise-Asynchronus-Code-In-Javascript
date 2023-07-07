@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Number Facts/Deck of Cards</title>
+  </head>
+  <body>
+    <h2>Number Facts</h2>
+    <ol>
+      <li>
+        Make a request to the Numbers API
+        <a href="http://numbersapi.com/">(http://numbersapi.com/)</a> to get a
+        fact about your favorite number. Make sure you get back JSON by
+        including the json query key, specific to this API.
+      </li>
+      <li>
+        Figure out how to get data on multiple numbers in a single request. Make
+        that request and when you get the data back, put all of the number facts
+        on the page.
+      </li>
+      <li>
+        Use the API to get 4 facts on your favorite number. Once you have them
+        all, put them on the page. It's okay if some of the facts are repeats.
+        (Note: You'll need to make multiple requests for this.)
+      </li>
+    </ol>
+    <h2>Number Facts Responses</h2>
+    <h3>Random Fact about 42</h3>
+    <p id="random-fact"></p>
+    <h3>Random Facts About the Numbers 7, 11, and 13</h3>
+    <ul id="random-facts-ul">
+      <li id="seven"></li>
+      <li id="eleven"></li>
+      <li id="thirteen"></li>
+    </ul>
+    <h3>4 Facts about the Number 9</h3>
+    <ul id="number9-facts"></ul>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
